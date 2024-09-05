@@ -1,5 +1,4 @@
 .dem {
-	font-family: serif;
 	text-align: center;
 	outline: none;
 	border: none;
@@ -8,9 +7,11 @@
 }
 
 #title {
-	font-size: 50px;
+	font-size: calc(var(--construct-scale) * 3.2em);
+	font-family: serif;
 }
 
 #subtitle {
-	font-size: 30px;
+	font-size: calc(var(--construct-scale) * 1.5em);
+	font-family: sans-serif;
 }
